@@ -1,0 +1,22 @@
+fr:
+  users:
+    new:
+      title: Créez votre compte
+      first_name:
+        label: Prénom
+        hint: Tapez votre prénom
+      last_name:
+        label: Nom de famille
+        hint: Tapez votre nom de famille
+      email:
+        label: Email
+        hint: Tapez votre email
+      password:
+        label: Mot de passe
+        hint: Trouvez en un compliqué
+      password_confirmation:
+        label: Confimation de mot de passe
+        hint: À l'identique
+      submit: Inscription
+    create:
+      success: Bienvenue dans notre communauté!

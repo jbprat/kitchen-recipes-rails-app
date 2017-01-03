@@ -1,0 +1,22 @@
+en:
+  users:
+    new:
+      title: Create your account
+      first_name:
+        label: First name
+        hint: Type your first name
+      last_name:
+        label: Last name
+        hint: Type your last name
+      email:
+        label: Email
+        hint: Type your email
+      password:
+        label: Password
+        hint: Type your password
+      password_confirmation:
+        label: Password confirmation
+        hint: Confirm it
+      submit: Sign up
+    create:
+      success: Welcome to our community!

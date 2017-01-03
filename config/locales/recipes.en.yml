@@ -1,0 +1,32 @@
+en:
+  recipes:
+    new:
+      title: Hello, time to share your secret!
+      name:
+        label: Name
+        hint: How will you call your recipe?
+      level:
+        label: Level
+        hint: On a scale of 1 to 5.
+      cook_time:
+        label: Cooking time
+        hint: One hour or all day, you have to pick, give us your time in minutes.
+      ingredients:
+        label: Ingredients
+        hint: List them all.
+      instructions:
+        label: Instructions
+        hint: How to cook your recipe?
+      submit: Send
+      not_connected:
+        text: You need to be connected to add your recipe.
+        link: Connect here to start!
+    create:
+      success: Congratulations, your recipe is online.
+    show:
+      author: Author
+      level: Level
+      cook_time: Cook time
+      ingredients: Ingredients
+      instructions: Instructions
+      minutes: minutes

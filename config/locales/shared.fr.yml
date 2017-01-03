@@ -1,0 +1,10 @@
+fr:
+  shared:
+    header:
+      account: Compte
+      home: Accueil
+      profile: Profil
+      logout: Déconnexion
+      signup: Inscription
+      login: Connexion
+      add_recipe: Ajoutez votre necette

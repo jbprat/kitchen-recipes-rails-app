@@ -1,0 +1,16 @@
+fr:
+  sessions:
+    new:
+      title: Connectez-vous à votre compte
+      email:
+        label: Email
+        hint: L’adresse courriel liée à votre compte
+      password:
+        label: Mot de passe
+        hint: Votre mot de passe
+      submit: Connexion
+      new_user:
+        intro: Pas encore inscrit?
+        link: Créez votre compte ici.
+    create:
+      invalid_informations: Combinaison email/mot de passe invalide.

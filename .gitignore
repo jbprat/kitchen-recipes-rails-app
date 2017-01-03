@@ -29,6 +29,13 @@ pickle-email-*.html
 # Bower
 *.bowerrc
 bower.json
+vendor/
+.bower-cache/
+.bower-registry/
+
+# Environment variables
+.env
+.env.development
 
 # Ignore all logfiles and tempfiles.
 /log/*

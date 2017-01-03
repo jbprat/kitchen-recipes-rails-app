@@ -1,0 +1,11 @@
+<h1><%= t('.title') %></h1>
+
+<div class="recipes">
+  <% if @recipes.any? %>
+    <div class="recipes-list">
+      <%= render partial: 'welcome/recipes_list' %>
+    </div>
+  <% else %>
+    <div class="recipes-text text-center"><%= t('.no_recipe_available') %> <%= link_to t('.add_recipe'), new_recipe_path %></p>
+  <% end %>
+</div>

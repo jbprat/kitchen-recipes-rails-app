@@ -1,0 +1,9 @@
+en:
+  welcome:
+    index:
+      title: Welcome to the best recipes in the world
+      no_recipe_available: There is no recipe available yet.
+      add_recipe: Add yours here!
+    recipes_list:
+      minutes: minutes
+      more: See more!

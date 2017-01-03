@@ -1,0 +1,21 @@
+<h1><%= t('.title') %></h1>
+
+<% if logged_in? %>
+  <div class="newRecipeForm row">
+    <%= simple_form_for @recipe, defaults: { input_html: { class: 'newRecipeForm-input'}, label_html: { class: 'newRecipeForm-label'} } do |f| %>
+      <%= f.input :name, label: t('.name.label'), hint: t('.name.hint'), wrapper_html: { class: 'col-md-12' }  %>
+
+      <%= f.input :level, label: t('.level.label'), hint: t('.level.hint'), collection: 1..5, wrapper_html: { class: 'col-md-6' }  %>
+
+      <%= f.input :cook_time, label: t('.cook_time.label'), hint: t('.cook_time.hint'), wrapper_html: { class: 'col-md-6' }  %>
+
+      <%= f.input :ingredients, label: t('.ingredients.label'), hint: t('.ingredients.hint'), wrapper_html: { class: 'col-md-12' }  %>
+
+      <%= f.input :instructions, label: t('.instructions.label'), hint: t('.instructions.hint'), wrapper_html: { class: 'col-md-12' }  %>
+
+      <%= f.submit t('.submit'), class: "btn btn-primary newRecipeForm-button center-button" %>
+    <% end %>
+  </div>
+<% else %>
+  <div class="newRecipeForm-text text-center"><%= t('.not_connected.text') %>. <%= link_to t('.not_connected.link'), login_path %> </div>
+<% end %>

@@ -1,0 +1,9 @@
+fr:
+  welcome:
+    index:
+      title: Bienvenue sur le site des meilleures recettes du monde
+      no_recipe_available: Aucune recette disponible pour le moment.
+      add_recipe: Ajoutez la votre ici!
+    recipes_list:
+      minutes: minutes
+      more: Voir plus!

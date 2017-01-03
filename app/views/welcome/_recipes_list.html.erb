@@ -1,0 +1,17 @@
+<div class="row">
+  <% @recipes.each do |recipe| %>
+    <div class="col-md-4 col-lg-3">
+      <div class="recipe-list-item card">
+        <div class="recipe-list-item-block card-block">
+          <div class="recipe-list-item-block-title card-title"><%= recipe.name %></div>
+
+          <div class="recipe-list-item-block-text card-text"><%= recipe.instructions %></div>
+          <div class="recipe-list-item-block-time card-text
+          "><%= recipe.cook_time %> <%= t('.minutes') %></div>
+
+          <%= link_to t('.more'), "recipes/#{recipe.slug}", class: 'recipe-list-item-block-link btn btn-default' %>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>

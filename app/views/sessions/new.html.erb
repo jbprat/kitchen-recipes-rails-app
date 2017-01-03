@@ -1,0 +1,14 @@
+<h1><%= t('.title') %></h1>
+
+<%= simple_form_for :session, url: login_path, default: { wrapper_html: { class: 'col-md-12' }, input_html: { class: 'newSessionForm-input' }, label_html: 'newSessionForm-label' } do |f| %>
+  <div class="newSessionForm row">
+    <%= f.input :email, label: t('.email.label'), hint: t('.email.hint') %>
+
+    <%= f.input :password, label: t('.password.label'), hint: t('.password.hint') %>
+
+    <%= f.submit t('.submit'), class: "btn btn-primary center-button" %>
+  </div>
+
+<% end %>
+
+<div class="newSessionForm-text text-center"><%= t('.new_user.intro') %> <%= link_to t('.new_user.link'), signup_path %></div>

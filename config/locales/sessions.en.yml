@@ -1,0 +1,16 @@
+en:
+  sessions:
+    new:
+      title: Connect to your account
+      email:
+        label: Email
+        hint: Type your email
+      password:
+        label: Password
+        hint: Type your password
+      submit: Connect
+      new_user:
+        intro: New user?
+        link: Create your account here.
+    create:
+      invalid_informations: Invalid email/password combination.

@@ -1,0 +1,12 @@
+fr:
+  routes:
+    recipes: recettes
+    users: utilisateurs
+    sessions: sessions
+    welcome: accueil
+    signup: inscription
+    login: connexion
+    logout: deconnexion
+    new: nouveau
+    show: voir
+    index: index

@@ -1,0 +1,154 @@
+AllCops:
+  Include:
+    - Rakefile
+    - config.ru
+    - Gemfile
+    - app/tasks/**/*.rake
+  Exclude:
+    - bin/**
+    - db/schema.rb
+    - db/migrate/**
+    - script/**
+    - vendor/**/*
+  Rails:
+    Enabled: true
+
+Documentation:
+  Enabled: false
+
+Encoding:
+  Enabled: false
+
+LineLength:
+  Max: 200
+
+ClassLength:
+  Max: 200
+
+AccessModifierIndentation:
+  EnforcedStyle: outdent
+
+IfUnlessModifier:
+  Enabled: false
+
+CaseIndentation:
+  IndentWhenRelativeTo: case
+  IndentOneStep: true
+
+MethodLength:
+  CountComments: false
+  Max: 20
+
+SignalException:
+  Enabled: false
+
+ColonMethodCall:
+  Enabled: false
+
+AsciiComments:
+  Enabled: false
+
+Lambda:
+  Enabled: false
+
+RegexpLiteral:
+  Enabled: false
+
+RedundantBegin:
+  Enabled: false
+
+AssignmentInCondition:
+  Enabled: false
+
+ParameterLists:
+  Enabled: false
+
+ClassAndModuleChildren:
+  Enabled: false
+
+DoubleNegation:
+  Enabled: false
+
+TrivialAccessors:
+  ExactNameMatch: true
+
+GuardClause:
+  Enabled: false
+
+Metrics/AbcSize:
+  Enabled: false
+
+Lint/UnusedMethodArgument:
+  Enabled: false
+
+Rails/TimeZone:
+  Enabled: false
+
+Lint/UnusedBlockArgument:
+  Enabled: false
+
+Style/ExtraSpacing:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Rails/Delegate:
+  Enabled: false
+
+Rails/PluralizationGrammar:
+  Enabled: false
+
+Style/EmptyLinesAroundBlockBody:
+  Enabled: false
+
+Style/EachWithObject:
+  Enabled: false
+
+Style/Next:
+  Enabled: false
+
+Style/SymbolProc:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Rails/Date:
+  Enabled: false
+
+Rails/FindBy:
+  Enabled: false
+
+Style/BarePercentLiterals:
+  Enabled: false
+
+Style/CommentIndentation:
+  Enabled: false
+
+Style/EmptyElse:
+  Enabled: false
+
+Style/UnneededPercentQ:
+  Enabled: false
+
+Lint/UnneededDisable:
+  Enabled: false
+
+Performance/Size:
+  Enabled: false
+
+Performance/StringReplacement:
+  Enabled: false
+
+Style/SpaceBeforeComma:
+  Enabled: false
+
+Style/StructInheritance:
+  Enabled: false
+
+Style/WordArray:
+  Enabled: false
+
+Style/MultilineOperationIndentation:
+  Enabled: false

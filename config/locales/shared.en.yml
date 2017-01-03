@@ -1,0 +1,10 @@
+en:
+  shared:
+    header:
+      account: Account
+      home: Home
+      profile: Profile
+      logout: Log out
+      signup: Sign up
+      login: Log in
+      add_recipe: Add your recipe

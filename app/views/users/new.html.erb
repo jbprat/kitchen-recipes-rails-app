@@ -1,0 +1,17 @@
+<h1><%= t('.title') %></h1>
+
+<%= simple_form_for @user, url: signup_path, defaults: { input_html: { class: 'newUserForm-input'}, label_html: { class: 'newUserForm-label'}, wrapper_html: { class: 'col-md-12' } } do |f| %>
+  <div class="newUser-form row">
+    <%= f.input :first_name, label: t('.first_name.label'), hint: t('.first_name.hint') %>
+
+    <%= f.input :last_name, label: t('.last_name.label'), hint: t('.last_name.hint') %>
+
+    <%= f.input :email, label: t('.email.label'), hint: t('.email.hint') %>
+
+    <%= f.input :password, label: t('.password.label'), hint: t('.password.hint') %>
+
+    <%= f.input :password_confirmation, label: t('.password_confirmation.label'), hint: t('.password_confirmation.hint') %>
+
+    <%= f.submit t('.submit'), class: "btn btn-primary center-button" %>
+  </div>
+<% end %>

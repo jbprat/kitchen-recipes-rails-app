@@ -1,0 +1,32 @@
+fr:
+  recipes:
+    new:
+      title: Bonjour, c’est le moment d’ajouter votre recette!
+      name:
+        text: Nom
+        helper: Comment s’appelle votre recette?
+      level:
+        text: Difficulté
+        helper: Sur une échelle de 1 à 5.
+      cook_time:
+        text: Temps de préparation
+        helper: Une heure ou une après-midi, il faut choisir.
+      ingredients:
+        text: Ingrédients
+        helper: Listez vos ingrédients ci-dessous.
+      instructions:
+        text: Instructions
+        helper: Comment préparer votre recette?
+      submit: Envoyer
+      not_connected:
+        text: You need to be connected to add your recipe.
+        link: Connect here to start!
+    create:
+      success: Félicitations, votre recette est en ligne.
+    show:
+      author: Auteur
+      level: Niveau de difficulté
+      cook_time: Temps de préparation
+      ingredients: Ingrédients
+      instructions: Instructions
+      minutes: minutes
